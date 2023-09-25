@@ -1,0 +1,13 @@
+git clone (ssh location)
+
+git status
+
+git add filename
+
+git commit -m "massage"
+
+git push 
+
+-----------------------
+
+git pull
