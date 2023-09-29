@@ -1,0 +1,27 @@
+1)for generating SSH key we can use below command
+  ssh-keygen -t ed25519 -C "zraza2511@gmail.com"
+
+2)for configuaring the user email and user name
+  git config --global user.email "zraza2511@gmail.com"
+  git config --global user.name "zraza2511"
+
+3)for clone the repo
+  git clone <SSH location>
+
+4)for check the changes or unstage files
+  git status
+
+5)for adding the files to local repo
+  git add <file name>
+  for adding all files  1 time  
+  git add .
+
+6)for commit the changes 
+  git commit -m "message of commit"
+
+7)for pushing the changes to remote repository
+  git push
+
+8)for getting the latest changes to our local repo
+  git pull 
+  
